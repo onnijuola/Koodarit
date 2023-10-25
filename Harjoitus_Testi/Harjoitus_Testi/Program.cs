@@ -19,6 +19,9 @@ internal class Program
 
         Console.WriteLine("Hello, Oskari");
 
+
+        console.writeline("hello onni");
+
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
