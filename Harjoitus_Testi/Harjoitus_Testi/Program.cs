@@ -27,6 +27,7 @@ internal class Program
 
         Console.WriteLine("HELLO Antti");
 
+        Console.WriteLine("Conflict Harjoitus");
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();

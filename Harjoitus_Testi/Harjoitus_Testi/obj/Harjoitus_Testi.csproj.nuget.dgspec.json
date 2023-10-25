@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antti.nguyen\\source\\repos\\Näyttöprojektkoodari\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {}
+    "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antti.nguyen\\source\\repos\\Näyttöprojektkoodari\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {
+    "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antti.nguyen\\source\\repos\\Näyttöprojektkoodari\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
+        "projectUniqueName": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
         "projectName": "Harjoitus_Testi",
-        "projectPath": "C:\\Users\\antti.nguyen\\source\\repos\\Näyttöprojektkoodari\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
-        "packagesPath": "C:\\Users\\antti.nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antti.nguyen\\source\\repos\\Näyttöprojektkoodari\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\obj\\",
+        "projectPath": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
+        "packagesPath": "C:\\Users\\oskari.elomaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\antti.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oskari.elomaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
