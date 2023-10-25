@@ -19,8 +19,10 @@ internal class Program
 
         Console.WriteLine("Hello, Oskari");
 
+        Console.WriteLine("Hello, Jesse");
 
-        console.writeline("hello onni");
+
+        Console.WriteLine("hello onni");
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
