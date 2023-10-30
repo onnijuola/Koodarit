@@ -1,0 +1,9 @@
+*.log
+
+.vs/
+
+Harjoitus_Testi/.vs/
+
+Harjoitus_Testi/Harjoitus_Testi/obj/
+
+Harjoitus_Testi/Harjoitus_Testi/bin/
