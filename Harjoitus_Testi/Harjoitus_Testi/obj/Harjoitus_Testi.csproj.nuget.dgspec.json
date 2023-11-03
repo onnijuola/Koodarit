@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {}
+    "C:\\Users\\onni.juola\\source\\repos\\onnijuola\\harjoitus\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {
+    "C:\\Users\\onni.juola\\source\\repos\\onnijuola\\harjoitus\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
+        "projectUniqueName": "C:\\Users\\onni.juola\\source\\repos\\onnijuola\\harjoitus\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
         "projectName": "Harjoitus_Testi",
-        "projectPath": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
-        "packagesPath": "C:\\Users\\oskari.elomaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oskari.elomaa\\source\\repos\\Koodari_Folder\\Koodarit\\Harjoitus_Testi\\Harjoitus_Testi\\obj\\",
+        "projectPath": "C:\\Users\\onni.juola\\source\\repos\\onnijuola\\harjoitus\\Harjoitus_Testi\\Harjoitus_Testi\\Harjoitus_Testi.csproj",
+        "packagesPath": "C:\\Users\\onni.juola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onni.juola\\source\\repos\\onnijuola\\harjoitus\\Harjoitus_Testi\\Harjoitus_Testi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\oskari.elomaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\onni.juola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCoreHero.ToastNotification": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NToastNotify": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

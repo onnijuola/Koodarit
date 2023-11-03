@@ -1,10 +1,97 @@
 ﻿@page
+@using System.Data;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/NappienTyylit.css" />
+
+    <style>
+
+       
+
+
+        body {
+            background-color: darkgreen;
+        }
+
+        #nappi:hover {
+            box-shadow: 10px 5px 5px white;
+        }
+
+        #taulukko1 {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #taulukko1 td, #taulukko1 th {
+                border: 1px solid black;
+                padding: 8px;
+            }
+
+            #taulukko1 tr:nth-child(even) {
+                background-color: black;
+            }
+
+            #taulukko1 tr:hover {
+                background-color: black;
+            }
+
+            #taulukko1 th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #04AA6D;
+                color: white;
+            }
+
+        #otsikko1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+
+        #otsikko2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 42px;
+        }
+
+    </style>
+
+   
+
+</head>
+
+<body>
+
+    <style>
+
+        head {
+            background-color: darkgreen;
+        }
+
+    </style>
+
+
+    <div>
+        <h1 id="otsikko1">Valitse sivu: </h1>
+
+        <button type="button" id="nappi" onclick="window.location.href = '/Muokkaa';"> Muokkaa </button>
+
+        <button type="button" id="nappi" onclick="window.location.href = '/Lisaa';"> Lisää </button>
+
+        <button type="button" id="nappi" onclick="window.location.href = '/Selaus';"> Selaus </button>
+
+
+    </div>
+   
+</body>
+</html>

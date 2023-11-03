@@ -1,8 +1,23 @@
+using NToastNotify;
+using Microsoft.Extensions.DependencyInjection;
+
+
 internal class Program
 {
+
+
     private static void Main(string[] args)
     {
+        
+        
+
+
+
+
+
+
         var builder = WebApplication.CreateBuilder(args);
+
 
         // Add services to the container.
         builder.Services.AddRazorPages();
@@ -30,6 +45,7 @@ internal class Program
         Console.WriteLine("Conflict Harjoitus");
 
         app.UseHttpsRedirection();
+
         app.UseStaticFiles();
 
         app.UseRouting();
@@ -39,5 +55,10 @@ internal class Program
         app.MapRazorPages();
 
         app.Run();
+
+
+
+
+
     }
 }
