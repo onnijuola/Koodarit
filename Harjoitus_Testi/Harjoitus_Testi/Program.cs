@@ -4,8 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 internal class Program
 {
-
-
+    [Obsolete]
     private static void Main(string[] args)
     {
         
@@ -20,7 +19,11 @@ internal class Program
 
 
         // Add services to the container.
-        builder.Services.AddRazorPages();
+        builder.Services.AddRazorPages().AddNToastNotifyNoty(new NotyOptions
+        {
+            ProgressBar = true,
+            Timeout = 5000
+        });
 
         var app = builder.Build();
 
@@ -47,6 +50,8 @@ internal class Program
         app.UseHttpsRedirection();
 
         app.UseStaticFiles();
+
+        app.UseNToastNotify();
 
         app.UseRouting();
 
